@@ -7,21 +7,24 @@
   <body>
       <!-- Your site content here -->
     <h2 textalign = "left">Pressure Cooker</h2>
-    <div class = "firstinput">
-    <p>starting Tempreture(celsius)</p>
-    <textarea></textarea>
+    <p>starting Tempreture(celsius): </p>
+    <div id = "firstinput">
+    <textarea placeholder="starting temp" ></textarea> </p>
   </div>
-  <div class = "secondinput">
-    <p>End Tempreture(celsius)</p>
-    <textarea></textarea>
+  <p>End Tempreture(celsius):</p>
+  <div id = "secondinput">
+   <textarea placeholder="end temp" ></textarea>
   </div>
-  <div class = "thirdinput">
-    <p>Interval(milisecond)</p>
-    <textarea></textarea>
+  <p>Interval(milisecond): </p>
+  <div id = "thirdinput">
+  <textarea placeholder="milisecond"></textarea> 
   </div>
-  <button onclick="cooking(event)">Start</button>
-  <div class = "textarea">
-    <textarea></textarea>
+  <button id ="button1" onclick="cooking(event)">Start cooker</button>
+  <br><br>
+  <div class = "temp-bar">
+    <div id = "bar">
+      0%
+  </div>
   </div>
 
 
